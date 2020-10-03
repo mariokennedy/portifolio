@@ -1,4 +1,4 @@
-# portifolio
+# portfólio
 Portfólio do desenvolvedor
 
 ## Tarefas
@@ -9,5 +9,5 @@ O controle das tarefas desse projeto será realizado no Github
 
 :package: Nova funcionalidade
 :up: atualização
-:beatle: Correção de bug
+:beetle: Correção de bug
 :checkered_flag: Release

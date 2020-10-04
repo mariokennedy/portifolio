@@ -317,12 +317,12 @@ header{
 .conhecimentos-img-wrapper{
     grid-column: 7 / 11;
     grid-row: 3 / 3;
-    width: 32rem;
+    width: 27rem;
 }
 
 .conhecimentos-img-wrapper img{
     object-fit: cover;
     width: 100%;
-    margin-left: -5rem;
+    margin-left: -3rem;
     margin-top: -2rem;
 }

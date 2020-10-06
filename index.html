@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,8 +12,9 @@
     <link rel="manifest" href="/site.webmanifest">
     <title>Portfólio</title>
 </head>
+
 <body>
-    
+
     <div class="container">
 
         <div class="hamburguer">
@@ -146,9 +148,9 @@
                         <h2>ToDo List</h2>
                         <h3>JavaScript</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                           Tempore quasi non iusto, rem consectetur vero consequatur tempora!
-                           Modi ratione autem neque minus alias nisi, perspiciatis tempora natus
-                           ex praesentium. Harum!</p>
+                            Tempore quasi non iusto, rem consectetur vero consequatur tempora!
+                            Modi ratione autem neque minus alias nisi, perspiciatis tempora natus
+                            ex praesentium. Harum!</p>
                         <button class="btn">Saiba Mais</button>
                     </div>
                 </div>
@@ -182,33 +184,63 @@
                 </div>
             </div>
         </section>
-        
+
 
         <section class="sessao-contato">
             <div class="contato-wrapper">
                 <div class="contato-left"></div>
-                    <div class="contato-right">
-                        <h1>Contato</h1>
-                        <form action="">
-                            <div class="input-group">
-                                <input type="text" class="field" id="nome">
-                                <label class="field-label" for="nome">Nome</label>
-                            </div>
-                            <div class="input-group">
-                                <input type="text" class="field" id="email">
-                                <label class="field-label" for="email">Email</label>
-                            </div>
-                            <div class="input-group">
-                                <textarea class="field" id="mensagem"></textarea>
-                                <label class="field-label" for="mensagem">Mensagem</label>
-                            </div>
-                            <button type="submit" class="btn btn-submit">Enviar</button>
-                        </form>
+                <div class="contato-right">
+                    <h1>Contato</h1>
+                    <form action="">
+                        <div class="input-group">
+                            <input type="text" class="field" id="nome">
+                            <label class="field-label" for="nome">Nome</label>
+                        </div>
+                        <div class="input-group">
+                            <input type="text" class="field" id="email">
+                            <label class="field-label" for="email">Email</label>
+                        </div>
+                        <div class="input-group">
+                            <textarea class="field" id="mensagem"></textarea>
+                            <label class="field-label" for="mensagem">Mensagem</label>
+                        </div>
+                        <button type="submit" class="btn btn-submit">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section class="sessao-orcamento">
+            <div class="orcamento-wrapper">
+                <h1>Faça um orçamento</h1>
+                <form>
+                    <label for="qtde">Qtde de Páginas</label>
+                    <input type="number" min="1" name="qtde" id="qtde">
+                    <label for="js">Preciso de um script JS</label>
+                    <input type="checkbox" name="js" id="js">
+                    <label>Layout</label>
+                    <div class="group-layout">
+                        <div>
+                            <input type="radio" name="layout" id="layout-sim">
+                            <label for="layout-sim">Preciso de um layout</label>
+                        </div>
+
+                        <div>
+                            <input type="radio" name="layout" id="layout-nao">
+                            <label for="layout-nao">Já tenho um layout</label>
+                        </div>
                     </div>
+
+                    <label for="prazo">Prazo</label>
+                    <input type="range" name="prazo" id="prazo">
+                    <button class="btn btn-orcamento" type="submit">Enviar</button>
+
+                </form>
             </div>
         </section>
 
     </div>
 </body>
 <script src="script.js"></script>
+
 </html>
